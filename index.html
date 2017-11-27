@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <script src="jspm_packages/system.js"></script>
+    <script src="config.js"></script>
+    <script src="https://fb.me/react-15.3.0.js"></script>
+    <script src="https://fb.me/react-dom-15.3.0.js"></script>
+    <style>
+        body {
+            text-align: center;
+        }
+
+        .cell{
+            width: 100px;
+            height: 100px;
+            display: inline-block;
+            border: 1px solid #aaa;
+            background: #fafafa;
+            margin-right: 4px;
+        }
+
+        .cell.active{
+            background: #058bda;
+        }
+
+        .cell.guess-true{
+            background: #0c0
+        }
+
+        .cell.guess-false{
+            background: #c00
+        }
+    </style>
+</head>
+<body>
+    <div id="react">
+        Loadding..
+    </div>
+    <script>
+        System.import('lib/main.js');
+    </script>
+</body>
+</html>
